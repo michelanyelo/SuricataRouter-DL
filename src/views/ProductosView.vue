@@ -20,7 +20,7 @@ const cards = [
     {
         id: 1,
         nombre: 'Colaciones',
-        descripcion: 'Porotos con riendas',
+        descripcion: 'Charquican',
         precio: '$4990',
         porcion: 'Para 1 persona'
     }
