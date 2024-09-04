@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container px-4">
       <RouterLink class="navbar-brand" to="/">
         <img src="../assets/logo.png" alt="logo de suricata" />

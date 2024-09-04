@@ -16,4 +16,15 @@ import FooterMenu from '@/components/FooterComp.vue'
 import MediosPago from '@/components/MediosPago.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+</style>
