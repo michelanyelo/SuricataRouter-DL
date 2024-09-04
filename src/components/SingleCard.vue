@@ -7,7 +7,7 @@
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Precio: {{ precio }}</li>
-            <li class="list-group-item">Cantidad: {{ cantidad }}</li>
+            <li class="list-group-item">Porcion: {{ porcion }}</li>
         </ul>
         <div class="card-body">
             <a href="#" class="card-link">Ver más</a>
@@ -32,8 +32,8 @@ export default {
             type: String,
             required: true
         },
-        cantidad: {
-            type: Number,
+        porcion: {
+            type: String,
             required: true
         }
     }
