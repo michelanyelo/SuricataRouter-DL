@@ -1,22 +1,22 @@
 <template>
   <Navbar />
-  
-  <router-view/>
-  
-  <medios-pago/>
-  <Footer />
+
+  <router-view />
+
+  <medios-pago />
+  <FooterMenu />
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
-import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/NavbarComp.vue'
+import FooterMenu from '@/components/FooterComp.vue'
 import MediosPago from '@/components/MediosPago.vue'
 
 export default {
   name: 'HomeView',
   components: {
     Navbar,
-    Footer,
+    FooterMenu,
     MediosPago
   }
 }
